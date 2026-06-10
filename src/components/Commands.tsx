@@ -41,6 +41,20 @@ const categories = [
     ],
   },
   {
+    id: 'antispam',
+    label: '🛡️ Anti-Spam',
+    commands: [
+      { name: '/antispam enable', desc: 'Enable rate-limit spam protection for this server' },
+      { name: '/antispam disable', desc: 'Disable spam protection' },
+      { name: '/antispam config', desc: 'Configure threshold (msgs), window (seconds), action (warn/timeout/kick), and timeout duration' },
+      { name: '/antispam threat enabled:True', desc: 'Enable content-based threat detection (phishing, IP grabbers, scam links)' },
+      { name: '/antispam threat action:delete_warn', desc: 'Set action when threat is detected: delete / delete+warn / delete+timeout' },
+      { name: '/antispam threat block-invites:True', desc: 'Block Discord invite links posted by non-admins' },
+      { name: '/antispam threat timeout-duration:10', desc: 'Set timeout duration (minutes) for delete_timeout action' },
+      { name: '/antispam status', desc: 'Show all current anti-spam and threat detection settings' },
+    ],
+  },
+  {
     id: 'general',
     label: '⚙️ General',
     commands: [

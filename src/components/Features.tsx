@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Music, Image, List, Shuffle, Mic2, Bell } from 'lucide-react'
+import { Music, Image, List, Shuffle, Mic2, Bell, ShieldCheck } from 'lucide-react'
 
 const features = [
   {
@@ -43,6 +43,13 @@ const features = [
     description: 'Supports YouTube playlists, Spotify tracks & playlists, SoundCloud, and plain search queries — all from one command.',
     gradient: 'from-fuchsia-500 to-pink-500',
     glow: 'group-hover:shadow-fuchsia-500/20',
+  },
+  {
+    icon: ShieldCheck,
+    title: 'Anti-Spam & Threat Detection',
+    description: 'Detects phishing links, IP grabbers, fake Nitro/Steam scams, crypto bait, and @everyone clickbait. Auto-deletes and times out offenders.',
+    gradient: 'from-red-500 to-orange-500',
+    glow: 'group-hover:shadow-red-500/20',
   },
 ]
 
