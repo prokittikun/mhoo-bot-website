@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mhoo-bot.kittikun.dev/sitemap.xml

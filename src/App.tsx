@@ -9,10 +9,12 @@ export default function App() {
   return (
     <div className="min-h-screen bg-[#0a0a14] overflow-x-hidden">
       <Navbar />
-      <Hero />
-      <Features />
-      <Commands />
-      <InviteCTA />
+      <main>
+        <Hero />
+        <Features />
+        <Commands />
+        <InviteCTA />
+      </main>
       <Footer />
     </div>
   )
