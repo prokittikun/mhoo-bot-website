@@ -34,6 +34,11 @@
   }
 }
 
+.prose-doc section + section {
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  padding-top: 2rem;
+}
+
 ::-webkit-scrollbar {
   width: 6px;
 }

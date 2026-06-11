@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { INVITE_URL } from '../config'
 
 export default function Footer() {
@@ -15,6 +16,8 @@ export default function Footer() {
           <a href={INVITE_URL} target="_blank" rel="noreferrer" className="hover:text-white/70 transition-colors">
             Invite
           </a>
+          <Link to="/terms" className="hover:text-white/70 transition-colors">Terms</Link>
+          <Link to="/privacy" className="hover:text-white/70 transition-colors">Privacy</Link>
         </div>
 
         <p className="text-white/20 text-xs">Not affiliated with Discord Inc.</p>
